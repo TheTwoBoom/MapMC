@@ -1,0 +1,8 @@
+bedrock
+colorama
+easygui_qt
+nbtlib
+Pillow
+requests
+tqdm
+urllib3
