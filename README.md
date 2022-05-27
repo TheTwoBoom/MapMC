@@ -1,4 +1,5 @@
 [logo]: https://github.com/TheTwoBoom/MapMC/raw/master/mapmc-logo.png
+![logo]
 # MapMC
 This is a fast and easy Tool for checking the version of minecraft worlds
 You can download the latest version: [Here](https://github.com/TheTwoBoom/MapMC/releases)
