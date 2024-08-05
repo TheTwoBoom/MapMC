@@ -1,7 +1,5 @@
 import minecraft_launcher_lib
 import subprocess
-import sys
-from glob import *
 import os
 import json
 import shutil
@@ -33,5 +31,5 @@ options = {
 }
 mc_directory = minecraft_launcher_lib.utils.get_minecraft_directory()
 minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(mc_version, mc_directory, options)
-minecraft_launcher_lib.install.install_minecraft_version(mc_version, mc_directory)
+minecraft_launcher_lib.fabric.install_fabric(mc_version, mc_directory)
 subprocess.call(minecraft_command)
